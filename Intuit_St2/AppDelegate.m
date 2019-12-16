@@ -21,17 +21,17 @@
     NSString *a = @"abc";
     NSString *b = [a stringByReplacingOccurrencesOfString:@"a"
                                                withString:@"b"];
-                   NSLog(@"b: %@", b);
-                   
-                   NSMutableString *m = [b mutableCopy]; NSRange r;
+                   NSLog(@"b: %@", b); // b: bbc
+    
+                   NSMutableString *m = [b mutableCopy];
+                   NSRange r;
                    r.length = m.length;
                    r.location = 0;
                    [m replaceOccurrencesOfString:@"c"
                                       withString:@"b"
                                          options:0
                                            range:r];
-                    NSLog(@"m: %@", m);
-    
+                    NSLog(@"m: %@", m); // m: bbb
     
     // Создание объекта строка - Hello, world!
     NSString *test = @"Hello, world!";
