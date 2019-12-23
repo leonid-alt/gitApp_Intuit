@@ -14,6 +14,8 @@
 		B32C330323A27EB00057C787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B32C330123A27EB00057C787 /* LaunchScreen.storyboard */; };
 		B32C330623A27EB00057C787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C330523A27EB00057C787 /* main.m */; };
 		B32C330E23A27FA40057C787 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B32C330D23A27FA40057C787 /* User.m */; };
+		B34689D923B0CD82002FF343 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B34689D823B0CD82002FF343 /* ViewController.m */; };
+		B34689DF23B0CFA3002FF343 /* Admin.m in Sources */ = {isa = PBXBuildFile; fileRef = B34689DE23B0CFA3002FF343 /* Admin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,9 @@
 		B32C330523A27EB00057C787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B32C330C23A27FA40057C787 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = User.h; path = User/User.h; sourceTree = "<group>"; };
 		B32C330D23A27FA40057C787 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = User.m; path = User/User.m; sourceTree = "<group>"; };
+		B34689D823B0CD82002FF343 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B34689DD23B0CFA3002FF343 /* Admin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Admin.h; path = Admin/Admin.h; sourceTree = "<group>"; };
+		B34689DE23B0CFA3002FF343 /* Admin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Admin.m; path = Admin/Admin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +68,7 @@
 			children = (
 				B32C32F623A27EB00057C787 /* AppDelegate.h */,
 				B32C32F723A27EB00057C787 /* AppDelegate.m */,
+				B34689D823B0CD82002FF343 /* ViewController.m */,
 				B32C32F923A27EB00057C787 /* ViewController.h */,
 				B32C32FA23A27EB00057C787 /* ViewController.m */,
 				B32C32FC23A27EB00057C787 /* Main.storyboard */,
@@ -72,6 +78,8 @@
 				B32C330523A27EB00057C787 /* main.m */,
 				B32C330C23A27FA40057C787 /* User.h */,
 				B32C330D23A27FA40057C787 /* User.m */,
+				B34689DD23B0CFA3002FF343 /* Admin.h */,
+				B34689DE23B0CFA3002FF343 /* Admin.m */,
 			);
 			path = Intuit_St2;
 			sourceTree = "<group>";
@@ -147,8 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B34689D923B0CD82002FF343 /* ViewController.m in Sources */,
 				B32C330E23A27FA40057C787 /* User.m in Sources */,
 				B32C32FB23A27EB00057C787 /* ViewController.m in Sources */,
+				B34689DF23B0CFA3002FF343 /* Admin.m in Sources */,
 				B32C330623A27EB00057C787 /* main.m in Sources */,
 				B32C32F823A27EB00057C787 /* AppDelegate.m in Sources */,
 			);
