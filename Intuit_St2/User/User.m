@@ -10,6 +10,29 @@
 
 @implementation User
 
+-(void)deleteProfile
+{
+    
+    NSLog(@"Пользователь %@ удален", self.name);
+    
+}
+
+-(void)postCommentWithText:(NSString *)text
+{
+    
+    [self postCommentWithTopic:@"" andText: text];
+    
+}
+
+-(void)postCommentWithTopic:(NSString *)topic
+                    andText:(NSString *)text
+{
+    
+    NSLog(@"Пользователь %@ (возраст: %d) с темой %@", self.name, self.age, topic);
+    
+}
+
+/*
 - (void)printName
 {
     NSLog(@"%@", self.name);
@@ -26,5 +49,5 @@
     self.name = name;
     self.age = age;
 }
-
+*/
 @end

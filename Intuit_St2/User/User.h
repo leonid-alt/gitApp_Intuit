@@ -13,11 +13,19 @@
 @property NSString *name;
 @property NSInteger age;
 
-- (void)printName;
-- (BOOL)canBuyDrinks;
+// Создаем три метода класса "User"
+-(void)deleteProfile;
 
-- (void)updateWithName: (NSString *)name
-                andAge: (NSInteger)age;
+-(void)postCommentWithText:(NSString *)text;
+
+-(void)postCommentWithTopic:(NSString *)topic
+                    andText:(NSString *)text;
+
+//- (void)printName;
+//- (BOOL)canBuyDrinks;
+
+//- (void)updateWithName: (NSString *)name
+//                andAge: (NSInteger)age;
 
 @end
 
