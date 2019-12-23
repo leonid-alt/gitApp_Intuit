@@ -10,21 +10,21 @@
 
 @implementation User
 
--(void)deleteProfile
+- (void)deleteProfile
 {
     
     NSLog(@"Пользователь %@ удален", self.name);
     
 }
 
--(void)postCommentWithText:(NSString *)text
+- (void)postCommentWithText:(NSString *)text
 {
     
     [self postCommentWithTopic:@"" andText: text];
     
 }
 
--(void)postCommentWithTopic:(NSString *)topic
+- (void)postCommentWithTopic:(NSString *)topic
                     andText:(NSString *)text
 {
     

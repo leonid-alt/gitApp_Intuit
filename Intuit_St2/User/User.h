@@ -14,11 +14,11 @@
 @property NSInteger age;
 
 // Создаем три метода класса "User"
--(void)deleteProfile;
+- (void)deleteProfile;
 
--(void)postCommentWithText:(NSString *)text;
+- (void)postCommentWithText:(NSString *)text;
 
--(void)postCommentWithTopic:(NSString *)topic
+- (void)postCommentWithTopic:(NSString *)topic
                     andText:(NSString *)text;
 
 //- (void)printName;
